@@ -27,6 +27,9 @@ type ListOpts struct {
 	// Image is the name of the image in URL format.
 	Image string `q:"image"`
 
+	// // An IPv4 address to filter results by.
+	Ip string `q:"ip"`
+
 	// Flavor is the name of the flavor in URL format.
 	Flavor string `q:"flavor"`
 
